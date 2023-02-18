@@ -17,7 +17,6 @@ public class BOJ_01_10807 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
         // 찾으려는 v값 입력받기
         int v = sc.nextInt();
         for (int a : arr) {

@@ -1,4 +1,4 @@
-package ch3;
+package baekjoon.ch3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ch3;
+package baekjoon.ch3;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

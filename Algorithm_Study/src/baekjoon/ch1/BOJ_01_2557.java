@@ -1,4 +1,4 @@
-package ch1;
+package baekjoon.ch1;
 
 public class BOJ_01_2557 {
     // Hello World!

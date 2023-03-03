@@ -6,67 +6,16 @@ public class BOJ_09_2941 {
     // 크로아티아 알파벳
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        String str[] = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 
-        String s = sc.nextLine();
-
-        int count = 0;
-        int k = s.length();
-
-        for (int i = 0; i < k; i++) {
-
-            switch (s.charAt(i)) {
-
-                case 'A':
-                case 'B':
-                case 'C':
-                    count += 3;
-                    break;
-
-                case 'D':
-                case 'E':
-                case 'F':
-                    count += 4;
-                    break;
-
-                case 'G':
-                case 'H':
-                case 'I':
-                    count += 5;
-                    break;
-
-                case 'J':
-                case 'K':
-                case 'L':
-                    count += 6;
-                    break;
-
-                case 'M':
-                case 'N':
-                case 'O':
-                    count += 7;
-                    break;
-
-                case 'P':
-                case 'Q':
-                case 'R':
-                case 'S':
-                    count += 8;
-                    break;
-
-                case 'T':
-                case 'U':
-                case 'V':
-                    count += 9;
-                    break;
-
-                case 'W':
-                case 'X':
-                case 'Y':
-                case 'Z':
-                    count += 10;
-                    break;
-            }
+        String st = sc.nextLine();
+        // str[]문자열 배열을 훑으면서 변환할 문자가 있는지 검사한다. 때문에 배열크기만큼 반복.
+        for (int i = 0; i < str.length; i++) {
+            // st.contains(str[i]) 배열에 있는 원소가 사용자가 입력한 st문자열에 있는지 검사하는 함수.
+            if (st.contains(str[i]))
+                // 특수문자로 변환하는 이유는 알파벳으로 변환했다간 다음 검사때 중복카운트가 되는 경우를 방지, 다른 특수문자도 가능
+                st = st.replace(str[i], "!");
         }
-        System.out.print(count);
+        System.out.println(st.length());
     }
 }

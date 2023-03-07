@@ -63,24 +63,24 @@
 [Ruby1]: https://user-images.githubusercontent.com/33937365/126247660-8e0d236d-eaef-42b3-8983-28f9e6c94ff9.png
 <!-- tier 리스트 E -->
 
-# 1 Chapter 
+# Chapter 1
 
-## [입출력과 사칙연산](1 Chapter)
+## [입출력과 사칙연산](Chapter 1)
 
-> [입력, 출력과 사칙연산을 연습해 봅시다. Hello World!](https://www.acmicpc.net/group/workbook/view/9797/28682)
+> [입력, 출력과 사칙연산을 연습해 봅시다. Hello World!](https://www.acmicpc.net/step/1)
 
-| 사이트    | 단계  | 번호     | 문제                                                                                      | 풀이     |
-|--------|-----|--------|-----------------------------------------------------------------------------------------|--------|
-| 백준     | 1   | 2557   | [<sub>![Bronze5]</sub> Hello World](https://www.acmicpc.net/problem/2557)               | [💻]() |
-| 백준     | 2   | 1000  | [<sub>![Bronze5]</sub> A+B](https://www.acmicpc.net/problem/1000)                       | [💻]() |
-| 백준     | 3   | 1001  | [<sub>![Bronze5]</sub> A-B](https://www.acmicpc.net/problem/1001)                       | [💻]() |
-| 백준     | 4   | 10998 | [<sub>![Bronze5]</sub> A×B](https://www.acmicpc.net/problem/10998)                       | [💻]() |
-| 백준     | 5   | 1008  | [<sub>![Bronze5]</sub> A/B](https://www.acmicpc.net/problem/1008)                       | [💻]() |
-| 백준     | 6   | 10869 | [<sub>![Bronze5]</sub> 사칙연산](https://www.acmicpc.net/problem/10869)                      | [💻]() |
-| 백준     | 7   | 10926 | [<sub>![Bronze5]</sub> ??!](https://www.acmicpc.net/problem/10926)                       | [💻]() |
-| 백준     | 8   | 18108 | [<sub>![Bronze5]</sub> 1998년생인 내가 태국에서는 2541년생?!](https://www.acmicpc.net/problem/18108) | [💻]() |
-| 백준     | 9   | 10430 | [<sub>![Bronze5]</sub> 나머지](https://www.acmicpc.net/problem/10430)                       | [💻]() |
-| 백준     | 10  | 2588  | [<sub>![Bronze3]</sub> 곱셈](https://www.acmicpc.net/problem/2588)                        | [💻]() |
-| 백준     | 11  | 11382 | [<sub>![Bronze5]</sub> 꼬마 정민](https://www.acmicpc.net/problem/11382)                     | [💻]() |
-| 백준     | 12  | 10171 | [<sub>![Bronze5]</sub> 고양이](https://www.acmicpc.net/problem/10171)                       | [💻]() |
-| 백준     | 13  | 10172 | [<sub>![Bronze5]</sub> 개](https://www.acmicpc.net/problem/10172)                         | [💻]() |
+| 사이트    | 단계  | 번호     | 문제                                                                                      | 풀이     | 다시보기 |
+|--------|-----|--------|-----------------------------------------------------------------------------------------|--------|------|
+| 백준     | 1   | 2557   | [<sub>![Bronze5]</sub> Hello World](https://www.acmicpc.net/problem/2557)               | [💻]() | ☁️   |
+| 백준     | 2   | 1000  | [<sub>![Bronze5]</sub> A+B](https://www.acmicpc.net/problem/1000)                       | [💻]() |☁️   |
+| 백준     | 3   | 1001  | [<sub>![Bronze5]</sub> A-B](https://www.acmicpc.net/problem/1001)                       | [💻]() |☁️   |
+| 백준     | 4   | 10998 | [<sub>![Bronze5]</sub> A×B](https://www.acmicpc.net/problem/10998)                       | [💻]() |☁️   |
+| 백준     | 5   | 1008  | [<sub>![Bronze5]</sub> A/B](https://www.acmicpc.net/problem/1008)                       | [💻]() |☁️   |
+| 백준     | 6   | 10869 | [<sub>![Bronze5]</sub> 사칙연산](https://www.acmicpc.net/problem/10869)                      | [💻]() |☁️   |
+| 백준     | 7   | 10926 | [<sub>![Bronze5]</sub> ??!](https://www.acmicpc.net/problem/10926)                       | [💻]() |☁️   |
+| 백준     | 8   | 18108 | [<sub>![Bronze5]</sub> 1998년생인 내가 태국에서는 2541년생?!](https://www.acmicpc.net/problem/18108) | [💻]() |☁️   |
+| 백준     | 9   | 10430 | [<sub>![Bronze5]</sub> 나머지](https://www.acmicpc.net/problem/10430)                       | [💻]() |☁️   |
+| 백준     | 10  | 2588  | [<sub>![Bronze3]</sub> 곱셈](https://www.acmicpc.net/problem/2588)                        | [💻]() |☁️   |
+| 백준     | 11  | 11382 | [<sub>![Bronze5]</sub> 꼬마 정민](https://www.acmicpc.net/problem/11382)                     | [💻]() |☁️   |
+| 백준     | 12  | 10171 | [<sub>![Bronze5]</sub> 고양이](https://www.acmicpc.net/problem/10171)                       | [💻]() |☁️   |
+| 백준     | 13  | 10172 | [<sub>![Bronze5]</sub> 개](https://www.acmicpc.net/problem/10172)                         | [💻]() |☁️   |

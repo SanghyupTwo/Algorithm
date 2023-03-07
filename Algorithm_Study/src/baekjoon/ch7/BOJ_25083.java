@@ -1,7 +1,7 @@
-package baekjoon.ch1;
+package baekjoon.ch7;
 
-public class BOJ_14_25083 {
-    // 새싹
+// 새싹
+public class BOJ_25083 {
     public static void main(String[] args) {
         System.out.println("         ,r\'\"7");
         System.out.println("r`-_   ,\'  ,/");

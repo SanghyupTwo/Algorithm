@@ -1,9 +1,9 @@
-package baekjoon.ch4;
+package baekjoon.ch7;
 
 import java.util.Scanner;
 
-public class BOJ_09_4344 {
-    // 평균은 넘겠지
+// 평균은 넘겠지
+public class BOJ_4344 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

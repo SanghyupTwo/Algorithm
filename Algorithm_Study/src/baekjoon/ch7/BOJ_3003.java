@@ -1,9 +1,9 @@
-package baekjoon.ch1;
+package baekjoon.ch7;
 
 import java.util.Scanner;
 
-public class BOJ_09_3003 {
-    // 킹, 퀸, 룩, 비숍, 나이트, 폰
+// 킹, 퀸, 룩, 비숍, 나이트, 폰
+public class BOJ_3003 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

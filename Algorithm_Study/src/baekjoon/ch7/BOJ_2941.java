@@ -1,14 +1,15 @@
-package baekjoon.ch6;
+package baekjoon.ch7;
 
 import java.util.Scanner;
 
-public class BOJ_09_2941 {
-    // 크로아티아 알파벳
+// 크로아티아 알파벳
+public class BOJ_2941 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String str[] = {"c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z="};
 
         String st = sc.nextLine();
+        sc.close();
         // str[]문자열 배열을 훑으면서 변환할 문자가 있는지 검사한다. 때문에 배열크기만큼 반복.
         for (int i = 0; i < str.length; i++) {
             // st.contains(str[i]) 배열에 있는 원소가 사용자가 입력한 st문자열에 있는지 검사하는 함수.

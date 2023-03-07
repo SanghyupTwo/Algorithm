@@ -1,9 +1,9 @@
-package baekjoon.ch6;
+package baekjoon.ch7;
 
 import java.util.Scanner;
 
-public class BOJ_10_1316 {
-    // 그룹 단어 체커
+// 그룹 단어 체커
+public class BOJ_1316 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ public class BOJ_10_1316 {
             }
             if(tmp) cnt++;
         }
-
+        sc.close();
         System.out.println(cnt);
     }
 }

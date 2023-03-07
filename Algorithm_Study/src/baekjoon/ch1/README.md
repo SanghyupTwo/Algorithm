@@ -65,7 +65,7 @@
 
 # Chapter 1
 
-## [입출력과 사칙연산](Chapter 1)
+## 입출력과 사칙연산
 
 > [입력, 출력과 사칙연산을 연습해 봅시다. Hello World!](https://www.acmicpc.net/step/1)
 

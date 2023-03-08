@@ -2,8 +2,8 @@ package baekjoon.ch1;
 
 import java.util.Scanner;
 
-public class BOJ_11_2588 {
-    // 곱셈
+// 곱셈
+public class BOJ_2588 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,8 +2,8 @@ package baekjoon.ch1;
 
 import java.util.Scanner;
 
-public class BOJ_10_10430 {
-    // 나머지
+// 나머지
+public class BOJ_10430 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 

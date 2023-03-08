@@ -1,7 +1,7 @@
 package baekjoon.ch1;
 
-public class BOJ_13_10172 {
-    // 개
+// 개
+public class BOJ_10172 {
     public static void main(String[] args) {
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

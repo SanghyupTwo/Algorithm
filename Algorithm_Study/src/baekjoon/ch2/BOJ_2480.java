@@ -2,8 +2,8 @@ package baekjoon.ch2;
 
 import java.util.Scanner;
 
-public class BOJ_07_2480 {
-    // 주사위 세 개
+// 주사위 세 개
+public class BOJ_2480 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,8 +2,8 @@ package baekjoon.ch2;
 
 import java.util.Scanner;
 
-public class BOJ_03_2753 {
-    // 윤년
+// 윤년
+public class BOJ_2753 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,8 +2,8 @@ package baekjoon.ch2;
 
 import java.util.Scanner;
 
-public class BOJ_04_14681 {
-    // 사분면 고르기
+// 사분면 고르기
+public class BOJ_14681 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,8 +2,8 @@ package baekjoon.ch2;
 
 import java.util.Scanner;
 
-public class BOJ_06_2525 {
-    // 오븐 시계
+// 오븐 시계
+public class BOJ_2525 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

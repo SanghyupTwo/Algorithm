@@ -2,8 +2,8 @@ package baekjoon.ch3;
 
 import java.util.Scanner;
 
-public class BOJ_04_25304 {
-    // 영수증
+// 영수증
+public class BOJ_25304 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

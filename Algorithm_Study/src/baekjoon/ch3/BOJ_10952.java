@@ -2,8 +2,8 @@ package baekjoon.ch3;
 
 import java.util.Scanner;
 
-public class BOJ_10_10952 {
-    // A+B -5
+// A+B -5
+public class BOJ_10952 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

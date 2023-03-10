@@ -2,15 +2,18 @@ package baekjoon.ch3;
 
 import java.util.Scanner;
 
-public class BOJ_01_2739 {
-    // 구구단
+// 합
+public class BOJ_8393 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        int sum = 0;
+        sc.close();
 
-        for (int i = 1; i <= 9; i++) {
-            System.out.printf("%d * %d = %d\n", n, i, n * i);
+        for (int i = 1; i <= n; i++) {
+            sum += i;
         }
+        System.out.println(sum);
     }
 }

@@ -2,8 +2,8 @@ package baekjoon.ch3;
 
 import java.util.Scanner;
 
-public class BOJ_07_11022 {
-    // A+B -8
+// A+B -7
+public class BOJ_11021 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,7 +12,7 @@ public class BOJ_07_11022 {
         for (int i = 1; i <= t; i++) { // 테스트 케이스만큼 반복
             int a = sc.nextInt();
             int b = sc.nextInt();
-            System.out.printf("Case #%d: %d + %d = %d\n", i, a, b, a + b);
+            System.out.printf("Case #%d: %d\n", i, a + b);
         }
         sc.close();
     }

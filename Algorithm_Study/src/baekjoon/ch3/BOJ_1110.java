@@ -2,8 +2,8 @@ package baekjoon.ch3;
 
 import java.util.Scanner;
 
-public class BOJ_12_1110 {
-    // 더하기 사이클
+// 더하기 사이클
+public class BOJ_1110 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package baekjoon.ch3;
 
 import java.util.Scanner;
 
-public class BOJ_09_2439 {
+public class BOJ_2439 {
     // 별 찍기 -2
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -3,8 +3,8 @@ package baekjoon.ch4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BOJ_07_1546 {
-    // 평균
+// 평균
+public class BOJ_1546 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // 과목의 개수 N 입력

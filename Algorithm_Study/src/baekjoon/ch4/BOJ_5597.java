@@ -2,8 +2,8 @@ package baekjoon.ch4;
 
 import java.util.Scanner;
 
-public class BOJ_05_5597 {
-    // 과제 안 내신 분...?
+// 과제 안 내신 분...?
+public class BOJ_5597 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // 1번부터 30번까지 학생

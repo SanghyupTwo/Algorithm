@@ -2,8 +2,8 @@ package baekjoon.ch4;
 
 import java.util.Scanner;
 
-public class BOJ_04_2562 {
-    // 최댓값
+// 최댓값
+public class BOJ_2562 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // 배열의 길이가 9인 배열 생성

@@ -1,5 +1,6 @@
 # 프린터 큐
 # 다시 풀어 보기
+
 from collections import deque
 import sys
 

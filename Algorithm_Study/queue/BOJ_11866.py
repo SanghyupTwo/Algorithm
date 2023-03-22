@@ -1,4 +1,5 @@
 # 요세푸스 문제 0
+
 import sys
 from collections import deque
 

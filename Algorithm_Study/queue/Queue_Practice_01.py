@@ -17,4 +17,4 @@ print('삭제', q.dequeue())
 print('삭제', q.dequeue())
 
 # 큐가 비었는지 확인
-print('비어있는가:', q.is_empty())
+print('비어있는가? :', q.is_empty())

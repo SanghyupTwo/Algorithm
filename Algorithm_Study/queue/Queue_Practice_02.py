@@ -1,6 +1,5 @@
 from Queue import Queue
 
-
 # josephus 함수 정의
 def josephus(n, k):
     # 큐 생성 후 1부터 n까지의 숫자를 큐에 추가

@@ -1,16 +1,20 @@
 n = int(input())
 
-for i in range(1, n + 1):
-    # i의 각 자릿수의 합을 계산하기 위한 초기화
-    digit_sum = 0
+# 가능한 범위를 계산
+min_value = max(1, n - 90)  # 90을 기준으로 범위를 좁힘
+max_value = n
+
+found_number = 0  # 조건을 만족하는 숫자를 저장할 변수
+
+# 가능한 범위 내의 각 숫자에 대해 조건을 확인
+for num in range(min_value, max_value + 1):
+    # 각 자릿수를 뺀 값을 계산
+    digit_sum = num + sum(map(int, str(num)))
     
-    # i를 문자열로 변환하고, 각 자릿수를 추출하여 합을 계산
-    for j in str(i):
-        digit_sum += int(j)
-    
-    # 만약 n과 i의 값과 i의 각 자릿수의 합이 같다면, i를 출력하고 반복을 종료
-    if n == i + digit_sum:
-        print(i)
+    # 조건을 만족하는 경우, 해당 숫자를 저장하고 반복 종료
+    if digit_sum == n:
+        found_number = num
         break
-else:
-    print(0)
+
+# 조건을 만족하는 숫자가 없다면 0을 출력, 그렇지 않으면 해당 숫자 출력
+print(found_number)

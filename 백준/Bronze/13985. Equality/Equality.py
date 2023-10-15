@@ -1,15 +1,7 @@
 s = input()
-a, b, c = 0, 0, 0
-
-for i in s:
-  if a and b and i.isdigit():
-    c = int(i)
-  elif a and i.isdigit():
-    b = int(i)
-  elif i.isdigit():
-    a = int(i)
+a, b, c = map(int, filter(str.isdigit, s))  # 문자열에서 숫자만 추출하여 정수로 변환
 
 if a + b == c:
-  print("YES")
+    print("YES")
 else:
-  print("NO")
+    print("NO")

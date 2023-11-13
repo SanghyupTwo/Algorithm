@@ -1,7 +1,3 @@
-n = int(input())
-res = 1
+import math
 
-for i in range(1, n+1):
-  res *= i
-
-print(str(res)[-1])
+print(str(math.factorial(int(input())))[-1])

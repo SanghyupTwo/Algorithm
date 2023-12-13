@@ -1,14 +1,8 @@
-arr = [True, False, False]
-for _ in range(int(input())):
-    a,b = map(int, input().split())
-    if arr[a-1] or arr[b-1]:
-        if arr[a-1]:
-            arr[b-1] = True
-            arr[a-1] = False
-        else:
-            arr[a-1] = True
-            arr[b-1] = False
+cups = [1,2,3] 
+for _ in range(int(input())): 
+  x, y = map(int, input().split())
+  c1 = cups.index(x) # x의 인덱스 가져오기
+  c2 = cups.index(y) # y의 인덱스 가져오기
+  cups[c1], cups[c2] = cups[c2], cups[c1] # 컵 위치 바꾸기
 
-for i in range(1, 4):
-    if arr[i-1]:
-        print(i)
+print(cups[0]) # 공이 들어있는 컵번호 출력

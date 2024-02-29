@@ -1,24 +1,12 @@
 n = int(input())
 
-if n == 1:
-    print(12, 1600)
-elif n == 2:
-    print(11, 894)
-elif n == 3:
-    print(11, 1327)
-elif n == 4:
-    print(10, 1311)
-elif n == 5:
-    print(9, 1004)
-elif n == 6:
-    print(9, 1178)
-elif n == 7:
-    print(9, 1357)
-elif n == 8:
-    print(8, 837)
-elif n == 9:
-    print(7, 1055)
-elif n == 10:
-    print(6, 556)
-elif n == 11:
-    print(6, 773)
+# 1~11까지의 출력값 리스트
+output_values = [(12, 1600), (11, 894), (11, 1327), (10, 1311),
+                 (9, 1004), (9, 1178), (9, 1357), (8, 837),
+                 (7, 1055), (6, 556), (6, 773)]
+
+# 숫자와 출력값 매핑 딕셔너리
+output_dict = dict(zip(range(1, 12), output_values))
+
+# 출력
+print(*output_dict[n])

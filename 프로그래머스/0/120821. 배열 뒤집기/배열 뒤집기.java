@@ -1,11 +1,10 @@
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 class Solution {
     public int[] solution(int[] num_list) {
-        int[] result = new int[num_list.length];
-        int cnt = 0;
-        for (int i = num_list.length - 1; i >= 0; i--) {
-            result[cnt] = num_list[i];
-            cnt ++;
-        }
-        return result;
+        return IntStream.rangeClosed(1, num_list.length)
+                        .map(i -> num_list[num_list.length - i])
+                        .toArray();
     }
 }

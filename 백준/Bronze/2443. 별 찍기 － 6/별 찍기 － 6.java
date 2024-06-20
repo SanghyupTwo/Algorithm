@@ -5,15 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            // 공백 출력
-            for (int k = 1; k < i; k++) {
-                System.out.print(" ");
-            }
-            // 별 출력
-            for (int j = 0; j < 1 + 2 * (n - i); j++) {
-                System.out.print("*");
-            }
+        for (int i = 0; i < n; i++) {
+            System.out.print(" ".repeat(i));
+            System.out.print("*".repeat(1 + 2 * (n - i -1)));
             System.out.println();
         }
     }

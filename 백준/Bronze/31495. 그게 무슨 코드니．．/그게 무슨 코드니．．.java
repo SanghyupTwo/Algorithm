@@ -1,3 +1,5 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Scanner;
 
 public class Main {
@@ -5,12 +7,25 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
 
-        // 최소 길이 2 이상이어야 처리 진행
-        if (s.length() >= 2 && s.charAt(0) == '\"' && s.charAt(s.length() - 1) == '\"') {
-            String str = s.substring(1, s.length() - 1).trim();
-            System.out.println(str.isEmpty() ? "CE" : str);
+        Deque<Character> str = new ArrayDeque<>();
+        for (char ch : s.toCharArray()) {
+            str.addLast(ch);
+        }
+
+        if (str.getFirst() == '\"' && str.getLast() == '\"') {
+            str.pollFirst();
+            str.pollLast();
+            if (str.size() > 2) {
+                for (Character c : str) {
+                    System.out.print(c);
+                }
+            } else {
+                System.out.println("CE");
+            }
+
         } else {
             System.out.println("CE");
         }
+
     }
 }
